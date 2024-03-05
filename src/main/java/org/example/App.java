@@ -1,4 +1,5 @@
-public class FartoCel {
+package org.example;
+public class App {
 
     public static float fahToCel(float fah) {
         return (float) ((fah - 32) * 5 / 9);

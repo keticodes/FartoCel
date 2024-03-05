@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a4dbf6c-74c4-4a1e-ac04-20ccc9541d95" name="Changes" comment="FarTocel kelvin to fahrenreit" />
+    <list default="true" id="4a4dbf6c-74c4-4a1e-ac04-20ccc9541d95" name="Changes" comment="FarTocel kelvin to fahrenreit 2">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FartoCel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FartoCelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -23,6 +30,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -36,12 +46,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.Docker Image.executor": "Run",
+    "Docker.Dockerfile.executor": "Run",
     "JUnit.FartoCelTest.executor": "Run",
     "JUnit.FartoCelTest.testFahToCel.executor": "Run",
     "JUnit.FartoCelTest.testKelvinToCel.executor": "Run",
     "JUnit.FartoCelTest.testKelvinToFahrenheit.executor": "Run",
     "JUnit.FartoCelTest.testKelvintoFahrenreit.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.FartoCel [clean].executor": "Run",
+    "Maven.FartoCel [compile].executor": "Run",
+    "Maven.FartoCel [install].executor": "Run",
+    "Maven.FartoCel [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.FartoCel [org.apache.maven.plugins:maven-install-plugin:3.1.1:help].executor": "Run",
+    "Maven.FartoCel [org.apache.maven.plugins:maven-install-plugin:3.1.1:install-file].executor": "Run",
+    "Maven.FartoCel [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -60,66 +79,72 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FartoCelTest">
-    <configuration name="FartoCelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Docker.Docker Image">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FartoCel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FartoCelTest" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FartoCelTest.testFahToCel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testFahToCel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FartoCel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FartoCelTest" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
       <option name="METHOD_NAME" value="testFahToCel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FartoCelTest.testKelvinToCel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testKelvinToCel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FartoCel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FartoCelTest" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
       <option name="METHOD_NAME" value="testKelvinToCel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FartoCelTest.testKelvinToFahrenheit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testKelvintoFahrenreit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FartoCel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FartoCelTest" />
-      <option name="METHOD_NAME" value="testKelvinToFahrenheit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FartoCelTest.testKelvintoFahrenreit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FartoCel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FartoCelTest" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.AppTest" />
       <option name="METHOD_NAME" value="testKelvintoFahrenreit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="sha256:62892470231faf3defa1cd092fa8f2a788f9606501e286379af8e05c90718317" />
+          <option name="containerName" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
+      <deployment type="docker-image">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FartoCelTest" />
-        <item itemvalue="JUnit.FartoCelTest.testFahToCel" />
-        <item itemvalue="JUnit.FartoCelTest.testKelvinToCel" />
-        <item itemvalue="JUnit.FartoCelTest.testKelvintoFahrenreit" />
-        <item itemvalue="JUnit.FartoCelTest.testKelvinToFahrenheit" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.AppTest.testFahToCel" />
+        <item itemvalue="JUnit.AppTest.testKelvinToCel" />
+        <item itemvalue="JUnit.AppTest.testKelvintoFahrenreit" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +170,11 @@
       <workItem from="1709375032785" duration="717000" />
       <workItem from="1709388788049" duration="206000" />
       <workItem from="1709552252422" duration="18000" />
-      <workItem from="1709585688346" duration="2650000" />
+      <workItem from="1709585688346" duration="5784000" />
+      <workItem from="1709623384341" duration="15000" />
+      <workItem from="1709623462721" duration="128000" />
+      <workItem from="1709623612784" duration="2196000" />
+      <workItem from="1709664778959" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="FarTocel initial setup">
       <option name="closed" value="true" />
@@ -171,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709591106621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="FarTocel kelvin to fahrenreit 2">
+      <option name="closed" value="true" />
+      <created>1709591397946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709591397946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +218,7 @@
     <MESSAGE value="FarTocel initial setup" />
     <MESSAGE value="FarTocel xml" />
     <MESSAGE value="FarTocel kelvin to fahrenreit" />
-    <option name="LAST_COMMIT_MESSAGE" value="FarTocel kelvin to fahrenreit" />
+    <MESSAGE value="FarTocel kelvin to fahrenreit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="FarTocel kelvin to fahrenreit 2" />
   </component>
 </project>
